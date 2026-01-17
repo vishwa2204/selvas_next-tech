@@ -136,6 +136,10 @@ body.dark {
     z-index: 999;
 }
 
+.c-z1000 {
+    z-index: 1000;
+}
+
 
 .c-flex {
     display: flex;

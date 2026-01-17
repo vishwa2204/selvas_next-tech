@@ -17,7 +17,7 @@ function AboutPage() {
       },
     });
     setBannerContent({
-      pageTitle: "Home",
+      pageTitle: "About",
       pageDescription: "Description",
       pageImage: banner,
     });

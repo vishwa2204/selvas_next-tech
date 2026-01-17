@@ -7,7 +7,7 @@ function HeadTitleNav() {
   const { headTitle, saveAction, onSave } = useHeaderActionStore();
   return (
     <div className="c-height-30 c-pa c-t70px c-l0 c-z999 c-pad c-max-width c-x-between c-v-center c-white">
-      <div className="pageTitle left-side-nav c-cell-3 c-v-center c-gap5">
+      <div className="pageTitle left-side-nav c-cell-4 c-v-center c-gap5">
         <span className="cs-fs-sm c-cur">
           <Link to="/">
             <CiHome />

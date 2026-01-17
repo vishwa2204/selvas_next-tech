@@ -18,7 +18,7 @@ function Model({
   return (
     <>
       <div
-        className={`modal-overlay c-bg-white c-pad ${className}`}
+        className={`modal-overlay c-bg-white c-z1000 c-pad ${className}`}
         onClick={onClose}
       >
         <div className={`modal-box`} onClick={(e) => e.stopPropagation()}>
