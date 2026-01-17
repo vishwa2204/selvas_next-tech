@@ -18,7 +18,7 @@ const NavMenus = [
     id: 2,
     menuName: "About us",
     icon: FaChartLine,
-    url: "/chartCreation",
+    url: "/aboutPage",
   },
   {
     id: 3,
