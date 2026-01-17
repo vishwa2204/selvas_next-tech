@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Header from "../components/header/Hearder";
 import Sidenav from "../components/header/Sidenav";
 import Landing from "../views/app_viz_v25/Landing";
-import ChartCreation from "../views/app_viz_v25/ChartCreation";
+import AboutPage from "../views/app_viz_v25/About";
 import HeadTitleNav from "../components/common/HeadTitleNav";
 import { useState } from "react";
 import { useDarkStore } from "../store/darkmodeStore";
@@ -37,7 +37,7 @@ function Routers() {
         >
           <Routes>
             <Route index element={<Landing />} />
-            <Route path="chartCreation" element={<ChartCreation />} />
+            <Route path="aboutPage" element={<AboutPage />} />
           </Routes>
         </div>
       </div>
