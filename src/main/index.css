@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Roboto-vite-app";
+    src: url("../assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+* {
+    font-family: "Roboto-vite-app";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+#root {
+    height: 100vh;
+    max-height: 100vh;
+    user-select: none;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 12px;
+}
+
+span {
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
