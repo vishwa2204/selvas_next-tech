@@ -1,9 +1,13 @@
 import { useEffect } from "react";
 import { useHeaderActionStore } from "../../store/PageTitleStore";
+import { useBannerContentActionStore } from "../../store/bannerContentStore";
+import banner from "../../assets/images/background/2.jpeg";
 
 function AboutPage() {
   const setHeader = useHeaderActionStore((s) => s.setHeader);
-
+  const setBannerContent = useBannerContentActionStore(
+    (state) => state.setBannerContent
+  );
   useEffect(() => {
     setHeader({
       headTitle: "About Page",
@@ -12,7 +16,12 @@ function AboutPage() {
         console.log("Chart saved");
       },
     });
-  }, [setHeader]);
+    setBannerContent({
+      pageTitle: "Home",
+      pageDescription: "Description",
+      pageImage: banner,
+    });
+  }, [setHeader, setBannerContent]);
   return (
     <>
       <div className="aboutPageContainer"></div>
