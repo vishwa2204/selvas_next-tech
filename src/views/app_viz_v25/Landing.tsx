@@ -10,7 +10,7 @@ function Landing() {
 
   useEffect(() => {
     setHeader({
-      headTitle: " ",
+      headTitle: "",
       saveAction: false,
     });
 
